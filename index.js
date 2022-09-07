@@ -21,7 +21,6 @@ const settings = {
 
 // サーバと設定とランタイムの初期化
 RED.init(server,settings);
-
 // エディタUIのルートを '/red' に指定
 app.use(settings.httpAdminRoot,RED.httpAdmin);
 
